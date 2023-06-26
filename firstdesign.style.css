@@ -1,0 +1,52 @@
+#body_header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(185, 249, 249);
+    border: 10px black solid;
+
+}
+
+#header_logo
+{
+    display: flex ;
+    justify-content: flex-start;
+    width: 150px;
+    height: 100px;
+
+}
+
+#ul_id
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+
+}
+.navlink
+{
+    width: 70px;
+    text-align: center;
+    list-style-type: none;
+    /* border: 5px pink  solid; */
+    border-radius: 20px;
+    background: pink;
+    box-shadow: 3px 3px black ;
+}
+
+#btn_header
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    color: aliceblue;
+    justify-content: center;
+    background-color: rgb(250, 190, 236);
+    height:70px ;
+    width: 140px;
+
+}
